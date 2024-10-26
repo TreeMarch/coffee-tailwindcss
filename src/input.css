@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
+=======
+@tailwind utilities;
+
+/* custome - ct */
+/* gintran -gt */
+.gt-top-menu-items {
+  @apply cursor-pointer py-1 hover:text-gray-800 relative after:absolute after:bottom-0 after:left-0 after:bg-light-coffee after:h-0.5 after:w-0 hover:after:w-full after:transition-all 
+    after:ease-in-out after:duration-300;
+}
+
+.gt-icons {
+  @apply w-5 h-5 inline-block;
+}
+.gt-badge-circle {
+  @apply text-xs text-center rounded-full px-1.5;
+}
+>>>>>>> df5aedfa09dfd41b2b8674e9b87cc172cb1fceae
