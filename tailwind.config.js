@@ -2,15 +2,27 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-<<<<<<< HEAD
-    extend: {},
-=======
     extend: {
       colors: {
         "light-coffee": "#C89F94",
       },
+      fontFamily: {
+        Karla: ["Karla", "sans-serif"],
+      },
+      keyframes: {
+        slideDown: {
+          "0%": {
+            transform: "translateY(-100%)",
+          },
+          "100%": {
+            transform: "translateY(0)",
+          },
+        },
+        animation: {
+          slideDown: "slideDown .5s ease-in-out",
+        },
+      },
     },
->>>>>>> df5aedfa09dfd41b2b8674e9b87cc172cb1fceae
   },
   plugins: [],
 };
